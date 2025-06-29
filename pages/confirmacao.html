@@ -1,18 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/ederson.css">
+    <link rel="stylesheet" href="../css/ederson.css" />
 
     <title>Confirmação de pedido</title>
-</head>
+  </head>
 
-<body>
-    <!-- Página Ederson -->
+  <body>
+    <header class="header">
+      <div class="logo">ifood</div>
+    </header>
 
-</body>
+    <div class="container">
+      <main class="main-content">
+        <h1>Finalize seu pedido</h1>
 
+        <section class="delivery-section">
+          <h2 class="section-title">Entrega</h2>
+
+          <div class="address">
+            <div class="location-icon"></div>
+            <div class="address-text">
+              <h3>Av. Paulista, 1090</h3>
+              <p>São Paulo/SP</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="delivery-time">
+          <h3>Hoje, 52-62 min</h3>
+
+          <div class="delivery-options">
+            <div class="delivery-option selected">
+              <h4>
+                Padrão <span class="delivery-method-card__help-icon">?</span>
+              </h4>
+              <p>Hoje, 52-62 min</p>
+              <div class="price">R$ 7,99</div>
+            </div>
+
+            <div class="delivery-option">
+              <h4>Rápida</h4>
+              <p>Hoje, 36-46 min</p>
+              <div class="price">R$ 13,99</div>
+            </div>
+          </div>
+        </section>
+
+        <a href="index.html" class="place-order-btn">Fazer pedido</a>
+      </main>
+
+      <aside class="order-summary">
+        <div class="restaurant-header">
+          <span class="restaurant-name">Seu pedido em</span>
+          <a href="#" class="view-menu">Ver Cardápio</a>
+        </div>
+
+        <h2 class="restaurant-title">Insalata</h2>
+
+        <div class="menu-section">Pratos Insalata</div>
+
+        <div class="order-item">
+          <div class="item-header">
+            <span class="item-name">1x Strogonoff Insalata.</span>
+            <span class="item-price">R$ 63,00</span>
+          </div>
+
+          <div class="item-details">1x Frango Korin, 1x Sim</div>
+
+          <div class="item-actions">
+            <a href="#" class="item-action">Editar</a>
+            <a href="#" class="item-action remove">Remover</a>
+          </div>
+        </div>
+
+        <div class="order-totals">
+          <div class="total-row">
+            <span>Subtotal</span>
+            <span>R$ 63,00</span>
+          </div>
+
+          <div class="total-row">
+            <span>Taxa de entrega</span>
+            <span>R$ 7,99</span>
+          </div>
+
+          <div class="total-row final">
+            <span>Total</span>
+            <span>R$ 70,99</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
 </html>
