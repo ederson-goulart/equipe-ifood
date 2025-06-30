@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 
-body{
+body.tela_login{
     margin: 0;
     background-color: #FDEDEE;
     height: 100vh;
@@ -13,7 +13,7 @@ body{
 
 
 
-.container {
+.area_principal {
     width: 100vw;
     height: 100vh;
 }
@@ -67,6 +67,7 @@ main {
 h1 {
     font-weight: 700;
     font-size: 2.5em;
+    margin: 1.2rem;
 }
 
 h1,
@@ -108,19 +109,20 @@ h2 {
 #google {
     font-weight: 800;
     border: 1px solid #ccc;
-    padding: 6px 14px;
+    padding: 10px 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 90%;
-    max-width: 320px;
+    width: 100%;
+    max-width: 420px;
     font-size: 1.1rem;
 }
 
 #face {
     background: #145dbf;
     color: white;
+    margin: 1.8rem;
 }
 
 #face:hover {
