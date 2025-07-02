@@ -32,6 +32,8 @@ header {
 
 #ajuda {
     flex: 0;
+    margin-right: 1rem;
+
 }
 
 .principal {
@@ -61,7 +63,7 @@ main {
     height: 93%;
     box-shadow: 10px 4px 120px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-top: -1.9rem;
 }
 
 h1 {
