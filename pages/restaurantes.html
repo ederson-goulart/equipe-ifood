@@ -1,23 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/marcel.css">
-
-    <title>Tela com Restaurantes</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/marcel.css" />
+    <title>Lojas - iFood</title>
 </head>
 
 <body>
+    <!-- CABEÇALHO / MENU NAVEGAÇÃO -->
     <header>
-        <img src="../assets/img/ifood-logo.svg" alt="iFood" class="logo" />
+        <nav>
+            <a href="../index.html" target="_blank">
+                <img src="../assets/img/ifood-logo.svg" alt="iFood" class="logo" />
+            </a>
+        </nav>
+
         <input type="text" placeholder="Busque por item ou loja" class="search-input" />
     </header>
 
-    <h1>Testando contribuição como colaborador</h1>
+    <main>
+        <h2>Lojas</h2>
 
+        <section class="grid-lojas">
+
+            <!-- card-1 -->
+            <div class="card">
+                <img src="../assets/img/1-Loja-Insalata.png" alt="Logo-insalata" class="logo-loja" />
+                <div class="info">
+                    <h3>Insalata</h3>
+                    <p>⭐ 4.8 • Saudável • 0.8 km</p>
+                </div>
+            </div>
+
+            <!-- card-2 -->
+            <div class="card">
+                <img src="../assets/img/2-Loja-Restaurante-Pampl....png" alt="Logo-pamplona" class="logo-loja" />
+                <div class="info">
+                    <h3>Restaurante Pamplona</h3>
+                    <p>⭐ 4.7 • Brasileira • 0.3 km</p>
+                </div>
+            </div>
+
+            <!-- card-3 COM LINK para a página de confirmação -->
+            <a href="confirmacao.html" class="card-link">
+                <div class="card">
+                    <img src="../assets/img/3-Loja-Geenjoy---Wraps.png" alt="Logo-grenjoy" class="logo-loja" />
+                    <div class="info">
+                        <h3>Geenjoy Wraps</h3>
+                        <p>⭐ 4.5 • Japonesa • 0.8 km</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- card-4 -->
+            <div class="card">
+                <img src="../assets/img/4-Loja-Muy-Comida-Brasileira.png" alt="Logo-muy-comida" class="logo-loja" />
+                <div class="info">
+                    <h3>Muy Comida Brasileira</h3>
+                    <p>⭐ 4.5 • Brasileira • 0.9 km</p>
+                </div>
+            </div>
+
+            <!-- card-5 -->
+            <div class="card">
+                <img src="../assets/img/5-Loja-Feijoada-da-Tatá-Mar....png" alt="Logo-feijoada-tata"
+                    class="logo-loja" />
+                <div class="info">
+                    <h3>Feijoada-da-Tatá</h3>
+                    <p>⭐ 4.7 • Brasileira • 0.5 km</p>
+                </div>
+            </div>
+
+            <!-- card-6 -->
+            <div class="card">
+                <img src="../assets/img/6-Loja-Osnir-Hamburguer.png" alt="Logo-osnir-hamburguer" class="logo-loja" />
+                <div class="info">
+                    <h3>Osnir Hamburguer</h3>
+                    <p>⭐ 4.6 • Hamburgueria • 0.4 km</p>
+                </div>
+            </div>
+
+            <!-- card-7 -->
+            <div class="card">
+                <img src="../assets/img/7-Loja-Marmita-Restaurante.png" alt="Logo-marmita" class="logo-loja" />
+                <div class="info">
+                    <h3>Marmita Restaurante</h3>
+                    <p>⭐ 4.7 • Brasileira • 0.5 km</p>
+                </div>
+            </div>
+
+            <!-- card-8 -->
+            <div class="card">
+                <img src="../assets/img/8-Loja-Requinte-Sabor---Rest....png" alt="Logo-requinte" class="logo-loja" />
+                <div class="info">
+                    <h3>Requinte Sabor</h3>
+                    <p>⭐ 4.8 • Italiana • 1.2 km</p>
+                </div>
+            </div>
+
+            <!-- card-9 -->
+            <div class="card">
+                <img src="../assets/img/9-Loja-Bowlo-Comida-Brasileira.png" alt="Logo-bowlo" class="logo-loja" />
+                <div class="info">
+                    <h3>Bowlo Comida Brasileira</h3>
+                    <p>⭐ 4.6 • Vegana • 0.2 km</p>
+                </div>
+            </div>
+
+            <!-- card-10 -->
+            <div class="card">
+                <img src="../assets/img/10-Loja-We-Marmita.png" alt="Logo-we" class="logo-loja" />
+                <div class="info">
+                    <h3>We Marmita</h3>
+                    <p>⭐ 4.1 • Fast Food • 0.9 km</p>
+                </div>
+            </div>
+
+            <!-- card-11 -->
+            <div class="card">
+                <img src="../assets/img/11-Loja-Manai-Gastronomia.png" alt="Logo-manai" class="logo-loja" />
+                <div class="info">
+                    <h3>Manai Gastronomia</h3>
+                    <p>⭐ 4.5 • Japonesa • 0.8 km</p>
+                </div>
+            </div>
+
+            <!-- card-12 -->
+            <div class="card">
+                <img src="../assets/img/12-Loja-Mineiro-Delivery.png" alt="Logo-mineiro-delivery" class="logo-loja" />
+                <div class="info">
+                    <h3>Mineiro Delivery</h3>
+                    <p>⭐ 4.7 • Brasileira • 0.5 km</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
 
 </html>

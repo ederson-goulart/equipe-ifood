@@ -22,7 +22,6 @@ header {
     width: 100px;
 }
 
-
 .search-input {
     flex: 1;
     padding: 12px 16px;
@@ -30,6 +29,17 @@ header {
     border: 1px solid #ccc;
     font-size: 16px;
 }
+/* .search-input {
+    flex: 1;
+    padding: 12px 16px 12px 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 24 24'%3E%3Cpath d='M21.71 20.29l-3.4-3.39A8.94 8.94 0 0019 11a9 9 0 10-9 9 8.94 8.94 0 005.9-2.31l3.39 3.4a1 1 0 001.42-1.42zM4 11a7 7 0 117 7 7 7 0 01-7-7z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-size: 20px;
+} */
 
 h2 {
     font-size: 22px;
@@ -39,6 +49,44 @@ h2 {
 
 .grid-lojas {
     display: grid;
+    /* Define o container como uma grid CSS */
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Cria colunas automáticas que se ajustam ao espaço disponível:
+    - Cada coluna tem no mínimo 280px e no máximo 1 fração do espaço (1fr)
+    - 'auto-fit' faz as colunas se ajustarem para caber o máximo possível na linha */
     gap: 20px;
+    /* Espaçamento de 20px entre linhas e colunas da grid */
 }
+
+.card {
+    display: flex;
+    align-items: center;
+    /* background: #fafafa; */
+    border-radius: 12px;
+    padding: 12px;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05); */
+}
+
+.logo-loja {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+
+.info h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-link {
+  text-decoration: none; /* remove sublinhado */
+  color: inherit;         /* mantém a cor original do texto */
+  display: block;         /* faz o <a> ocupar o espaço total do card */
+}
+
